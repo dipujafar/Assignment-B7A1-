@@ -9,3 +9,13 @@ const reverseString = (text: string): string => {
   const reverseStr = text.split("").reverse().join("");
   return reverseStr;
 };
+
+// problem 3
+const checkType = (value: string | number): string => {
+  if (typeof value === "string") {
+    return "String";
+  }
+  return "Number";
+};
+
+// problem 3
