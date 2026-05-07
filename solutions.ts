@@ -61,4 +61,8 @@ class Student extends Person {
   }
 }
 
-
+// problem 7
+const getIntersection = (firstArr: number[], secondArr: number[]): number[] => {
+  const findArr = firstArr.filter((num: number) => secondArr.includes(num));
+  return findArr;
+};
